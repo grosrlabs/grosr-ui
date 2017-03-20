@@ -1,0 +1,36 @@
+body{
+    background-color: $bg-body;
+}
+.bg-white{
+    background-color: $white;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: $font-family-sans-serif;
+  font-weight: 100;
+}
+.no-border{
+    border: 0px;
+}
+.anchor{
+    cursor: pointer;
+}
+.header-search-box{
+    input{
+        border: 0px;
+        border-radius: 25px;
+        padding-right: 70px;
+    }
+    button{
+        border-radius: 25px;
+        margin-top:5px;
+        right: 52px;
+        position: absolute;
+    }
+}
+// .bg-delivery-vehicle{
+//     background: url(images/deliveryvehicle.jpg);
+// }
