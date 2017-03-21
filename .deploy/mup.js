@@ -1,7 +1,7 @@
 module.exports = {
   servers: {
     one: {
-      host: '138.197.40.129',
+      host: '139.59.62.238',
       username: 'root',
       // pem:
       password: '2c1t3012'
@@ -19,8 +19,8 @@ module.exports = {
       serverOnly: true,
     },
     env: {
-      PORT: 80,
-      ROOT_URL: 'http://test.grosr.com',
+      PORT: 3000,
+      ROOT_URL: 'http://qa.grosr.com',
       MONGO_URL: 'mongodb://localhost/meteor',
     },
 
